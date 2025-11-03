@@ -314,10 +314,11 @@
     </div>
    </div>
    <div class="card">
-    <h2 class="card-title">📁 Upload Dataset</h2>
-    <div class="upload-section"><label for="fileUpload" class="upload-label"> 📤 Upload Dataset </label> <input type="file" id="fileUpload" accept=".csv,.xlsx">
-     <div class="upload-info">
-      Format yang didukung: .csv, .xlsx
+    <a href="./dataset/data_sentimen.csv" download>
+    <button class="download-button" id="staticDownloadButton" style="display: inline-flex;">
+        📥 Download Dataset Asli (CSV)
+    </button>
+</a>
      </div>
      <div class="file-result" id="fileResult"><button class="download-button" id="downloadButton" style="display: none;" onclick="downloadFile()"> 📥 Download Dataset </button>
      </div>
